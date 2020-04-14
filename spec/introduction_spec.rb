@@ -16,4 +16,7 @@ def introduction(name,language)
   puts "Hi my name is #{name} and i am learning to program in #{language}"
 end
 
-introduction(Abel,ruby)
+name = "Abel"
+language = "ruby"
+
+introduction(name,language)
